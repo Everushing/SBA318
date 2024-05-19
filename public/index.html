@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Mini Blog</h1>
+  </header>
+
+  <main>
+    <section id="posts">
+      </section>
+
+    <h2>Create New Post</h2>
+    <form id="new-post-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="content">Content:</label>
+      <textarea id="content" name="content" cols="30" rows="10" required></textarea>
+
+      <button type="submit">Create Post</button>
+    </form>
+  </main>
+
+  <script src="app.js"></script>  </body>
+</html>
